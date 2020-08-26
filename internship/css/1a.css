@@ -1,0 +1,100 @@
+@media screen and (min-width: 320px) {
+    body {
+        border: 1px solid #006666;
+        margin: 3.7% 15.5%;
+        height: 350px;   
+        font-size: 100%;
+    }
+    section{
+        display:block;
+    }
+    .home{
+        display:block;
+    }
+  }
+@media screen and (min-width: 600px) {
+body{
+    border: 1px solid #006666;
+    margin: 3.7% 15.5%;
+    height: 1050px;   
+    font-size: 250%;
+}
+
+section{
+    text-align: center;
+    margin: -2% 1.5%;
+    width: 20%;
+    background: #FFFFFF;
+    display: inline-block;
+    display: center;   
+    position: sticky;
+}
+img{
+    display: block;
+
+}
+button{
+    border: 1px 0.5px  solid #006666 ;
+    border-radius: 15%;
+    display: inline;
+    border-color: #006666;
+    padding: 2% 4%;
+    margin: 1%;
+    display: center;
+    font-size: 150%;
+}
+button:hover{
+    background: #006666;
+}
+.home {
+    background-image: url("bg.jpg");
+    background-color: #006666;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    margin-left: 1px;
+    display: inline-block;  
+    margin-top: 1px; 
+    border-right: 40px solid white;
+    clip-path: polygon(
+    0 0, /* left top */
+    100% 0%, /* right top */ 
+    90% 100%, /* right bottom */
+    0 100% /* left bottom */
+  );
+}
+p{
+    display: none;
+}
+.two{
+    
+    display: center;
+    margin: 23% 38%;
+}
+.three{
+    margin: -12% -4%;
+}
+.four{
+    margin: -10% 100%;
+}
+i{
+    float:left;
+}
+.one{ 
+    display: center;
+    display: block;
+}
+#one{
+    display: center;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    
+}
+
+}
